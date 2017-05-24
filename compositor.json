@@ -1,0 +1,90 @@
+{
+  "name": "iamarek/JavaScript30",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "",
+  "style": {
+    "name": "Brutalist",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BasicHeader",
+      "article": "article/MarkdownArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "Consolas, \"Liberation Mono\", Menlo, Courier, monospace",
+    "heading": {},
+    "typeScale": [
+      48,
+      32,
+      20,
+      18,
+      16,
+      14,
+      12
+    ],
+    "layout": {
+      "maxWidth": 1024,
+      "fluid": true
+    },
+    "colors": {
+      "text": "#333",
+      "background": "#fff",
+      "primary": "#666",
+      "secondary": "#888",
+      "highlight": "#1f80ff",
+      "muted": "#f6f6f6",
+      "border": "#eee"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/iamarek/JavaScript30",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "JavaScript30",
+      "subhead": "30 Day Vanilla JS Challenge",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "JavaScript30: 30 Day Vanilla JS Challenge",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "iamarek",
+          "repo": "JavaScript30"
+        }
+      ]
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<p><img src=\"https://javascript30.com/images/JS3-social-share.png\"></p>\n\n<p>Starter Files + Completed solutions for the JavaScript 30 Day Challenge. </p>\n<p>Grab the course at <a href=\"https://JavaScript30.com\">https://JavaScript30.com</a></p>\n<h2>Pull Requests</h2>\n<p>These are meant to be 1:1 copies of what is done in the video. If you found a better / different way to do things, great, but I will be keeping them the same as the videos. </p>\n<p>The starter files + solutions will be updated if/when the videos are updated. </p>\n<p>Thanks!</p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/iamarek/JavaScript30",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/iamarek",
+          "text": "iamarek"
+        }
+      ]
+    }
+  ]
+}
